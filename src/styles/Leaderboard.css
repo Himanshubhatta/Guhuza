@@ -1,0 +1,50 @@
+.leaderboard-container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .leaderboard-table th {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .badge-item {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .total-users {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .mascot-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .mascot-image {
+    max-width: 200px;
+    height: auto;
+  }
+  

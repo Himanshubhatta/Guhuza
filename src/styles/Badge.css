@@ -1,0 +1,61 @@
+/* Badge Page Styling */
+.badges-page {
+    margin: 20px;
+  }
+  
+  .badges-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .badge-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .badge-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    margin-bottom: 15px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    border-color: #ccc;
+  }
+  
+  small {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  h5 {
+    margin-top: 10px;
+  }
+  
+  /* Styling for Badge Emojis */
+.badge-emoji {
+    font-size: 2rem; /* Adjust the size of the emoji */
+    margin-right: 10px;
+  }
+  
+  /* Styling for Available Badges */
+.badge-card small {
+    font-size: 16px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    display: block; /* Ensure proper spacing */
+    margin-bottom: 10px; /* Add space between benefits and button */
+}
+
+/* Center the Earn This Badge button */
+.badge-card .btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}

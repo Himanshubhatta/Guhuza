@@ -1,0 +1,91 @@
+.refer-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+  }
+  
+  .refer-card .btn {
+    margin: 10px 0;
+  }
+  
+  .social-media-buttons .btn {
+    margin: 10px;
+    font-size: 14px;
+  }
+  
+  .app-description {
+    margin-top: 30px;
+  }
+  
+  .wallet-info {
+    margin-top: 20px;
+  }
+  
+  .footer {
+    margin-top: 40px;
+  }
+  
+  .footer a {
+    color: #fff;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 3D effect for the mascot image */
+.mascot-container {
+    perspective: 1000px; /* Adds depth for the 3D effect */
+  }
+  
+  .mascot-3d {
+    width: 75px; /* Adjust size of the mascot (smaller size) */
+    height: auto;
+    transform-style: preserve-3d; /* Preserves the 3D space */
+    transition: transform 0.5s ease; /* Smooth transition for rotation */
+  }
+  
+  /* Add the hover effect for 3D animation */
+  .mascot-3d:hover {
+    transform: rotateY(20deg) rotateX(10deg); /* Rotate in 3D space */
+  }
+  
+  
+  /* 3D text effect for the "Refer & Earn" heading */
+  .refer-card .card-title {
+    font-size: 2rem; /* Adjust size as needed */
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .refer-card .card-title:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: linear-gradient(45deg, #ff007f, #00b3ff);
+    z-index: -1;
+    filter: blur(8px);
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect for the "Refer & Earn" title */
+  .refer-card .card-title:hover {
+    transform: rotateX(10deg) rotateY(10deg) scale(1.1);
+  }
+  
+  .refer-card .card-title:hover:before {
+    filter: blur(12px);
+    background: linear-gradient(45deg, #ff007f, #00b3ff, #f3e5f5);
+  }
+  

@@ -1,0 +1,89 @@
+/* Quiz Page Styles */
+.quiz-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #1a1a1a;
+    color: #fff;
+  }
+  
+  .quiz-box {
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    width: 50%;
+  }
+  
+  .question-container {
+    margin: 20px 0;
+  }
+  
+  .option-btn {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  
+  .next-btn {
+    margin-top: 15px;
+    background: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .next-btn:disabled {
+    background: #555;
+    color: #aaa;
+  }
+  
+  .close-btn {
+    font-size: 24px;
+    font-weight: bold;
+    background: transparent;
+    color: red;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: #ff4444;
+  }
+  
+  .modal-content {
+    background: #333;
+    color: #fff;
+  }
+  
+  .modal-header .btn-close {
+    filter: invert(1);
+  }
+  
+  .option-btn.selected {
+    background-color: #007bff !important; /* Bootstrap primary blue */
+    color: white !important;
+    border-color: #007bff !important;
+  }
+  
+  .option-btn.selected:hover {
+    background-color: #0056b3 !important; /* Slightly darker blue */
+  }
+  
+  .option-btn:focus {
+    box-shadow: none !important;
+  }
+  
+  .level-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Adjust space between buttons */
+  }
+  
